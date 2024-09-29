@@ -1386,7 +1386,7 @@ class Signal(object):
 
         return '\n'.join(temp)
 
-    def list(self, offset='', indent ='     '):
+    def list(self, offset='', indent ='    '):
 
         """
         List all file/group/dataset elements in the hdf5 file by iterating
